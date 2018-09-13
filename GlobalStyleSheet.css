@@ -8,6 +8,14 @@ body, html {
     background-image: url("images/narutoSakuraSasuke.png");
     min-height: 75%;
 }
+
+.bgimg_kakashi {
+    background-position: center;
+    background-size: cover;
+    background-image: url("images/kakashiPageHeading.jpg");
+    min-height: 75%;
+}
+
 .menu {
     display: none;
 }
