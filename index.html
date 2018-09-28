@@ -6,9 +6,7 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-125793898-1');
- 
 </script>
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -21,49 +19,47 @@
 <title>Town Naruto</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
 <link rel="stylesheet" href="GlobalStyleSheet.css">
 <body>
 
 <!-- Links (sit on top) -->
-<div class="w3-top">
-  <div class="w3-row w3-padding w3-black">
-    <div class="w3-col s3">
-      <a href="index.html" class="w3-button w3-block w3-black">HOME</a>
+<div class="navigationBar z_index_1">
+  <div class="row">
+    <div class="col-sm-3 col-xs-3 menuItem">
+      <a href="index.html" class="">HOME</a>
     </div>
-    <div class="w3-col s3">
-      <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+    <div class="col-sm-3 col-xs-3 menuItem">
+      <a href="#about" class="">ABOUT</a>
     </div>
-     <div class="w3-col s3">
-      <a href="#content" class="w3-button w3-block w3-black">CONTENT</a>
+     <div class="col-sm-3 col-xs-3 menuItem">
+      <a href="#content" class="">CONTENT</a>
     </div>
-    <div class="w3-col s3">
-      <a href="#" class="w3-button w3-block w3-black">CONTACT US</a>
+    <div class="col-sm-3 col-xs-3 menuItem">
+      <a href="#" class="">CONTACT US</a>
     </div>
   </div>
 </div>
 
 <!-- Header with image -->
-<header class="bgimg w3-display-container w3-grayscale-min" id="home">
-  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
-    <span class="w3-tag">Welcome to Town Naruto</span>
+<header class="bgimg position_relative mt_30 px_10" id="home">
+  <div class="position_absolute bottom_left">
+    <span class="heading_black_background">Welcome to Town Naruto</span>
   </div>
-  <div class="w3-display-middle w3-center">
-    <span class="w3-text-white" style="font-size:90px">Town<br>Naruto</span>
-  </div>
-  <div class="w3-display-bottomright w3-center w3-padding-large">
-    <span class="w3-text-white">Believe it!</span>
+  <center><div class="">
+    <span class="text_color_white" style="font-size:90px">Town<br>Naruto</span>
+  </div></center>
+  <div class="position_absolute bottom_right">
+    <span class="heading_black_background">Believe it!</span>
   </div>
 </header>
 
-<!-- Add a background color and large text to the whole page -->
-<div class="w3-sand w3-grayscale w3-large">
+
 
 <!-- About Container -->
-<div class="w3-container" id="about">
-  <div class="w3-content" style="max-width:700px">
-    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT TOWN NARUTO</span></h5>
+<div class="container-fluid text-center mt_30">
+	<div class = "col-sm-2"></div>
+  	<div id="about" class="col-sm-8" style="max-width:800px">
+    <h5><span class="heading_black_background_lg">ABOUT TOWN NARUTO</span></h5>
     <p>Naruto has been an inspiration to people all over the world. It has been motivating people for more than twenty years now.
     No matter if you are a hard anime fan or a newbie diving into the world of anime, Naruto is a must watch. Naruto tells the story of NARUTO UZUMAKI, a ninja that strives to earn a name
     for himself and become the strongest of all. On his journey he keeps on changing and inspiring people making new friends where ever he goes. It is a story of
@@ -71,7 +67,7 @@
     <p>TOWN NARUTO is an effort to bring Naruto closer to the hearts of people, to share the hope Naruto brings with everyone,
     to help people understand life better and to learn how to be a better person. Town Naruto aims at bringing hope, joy, motivation and forgiveness to everyone and to share the Mantra of success
     with everyone.</p>
-    <div class="w3-panel w3-leftbar w3-light-grey">
+    <div class="quotations">
       <p><i>"If you don't like the hand that fate's dealt you, fight for a new one"</i></p>
       <p>--Masashi Kishimoto</p>
     </div>
@@ -80,84 +76,28 @@
     even though one manages to take ones revenge, it would never lead to happiness instead the suffering only deepens.
     Hardwork and dedication always pays. Hardwork defeats talent, if the talent doesn't work hard enough.
     </p>
-     <div class="w3-panel w3-leftbar w3-light-grey">
+     <div class="quotations">
       <p><i>"I will prove my point that hard work beats talent when talent doesn't work hard."</i></p>
       <p>--Rock Lee</p>
     </div>
   </div>
 </div>
 
-<!-- content Container -->
-<div class="w3-container" id="content">
-  <div class="w3-content" style="max-width:1200px">
-    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">CONTENT</span></h5>
-    <div id = "mainDivForCards row">
-    <a href="html/kakashi.html">
-	    <div class="card col-sm-2">
-	    	<div class="imageContainer">
-	  			<img src="images/kakashiAvatar500X593.png" alt="kakashiAvatar" style=" max-width:200px; width:100%">
-	  		</div>
-	  		<div class="CardContainer">
-	    		<h4><b>Hatake Kakashi</b></h4> 
-	    		<p>-- the copy ninja</p> 
-	  		</div>
-		</div>
-	</a>
-	<a href="#">
-		<div class="card col-sm-2">
-			<div class="imageContainer">
-	  			<img src="images/narutoAvatar500X593.png" alt="Avatar" style="max-width:200px; width:100%">
-	  		</div>
-	  		<div class="CardContainer">
-	    		<h4><b>Uzumaki Naruto</b></h4> 
-	    		<p>-- the hero</p> 
-	  		</div>
-		</div>
-	</a>
-	<a href="#">
-		<div class="card col-sm-2">
-			<div class="imageContainer">
-	  			<img src="images/sasukeAvatar500X593.jpg" alt="Avatar" style="max-width:200px; width:100%">
-  			</div>
-	  		<div class="CardContainer">
-	    		<h4><b>Uchiha Sasuke</b></h4> 
-	    		<p>-- the teacher</p> 
-	  		</div>
-		</div>
-	</a>
-	
-	  <a href="html/kakashi.html">
-	    <div class="card col-sm-2">
-	    	<div class="imageContainer">
-	  			<img src="images/kakashiAvatar500X593.png" alt="kakashiAvatar" style="max-width:200px; width:100%">
-	  		</div>
-	  		<div class="CardContainer">
-	    		<h4><b>Hatake Kakashi</b></h4> 
-	    		<p>-- the copy ninja</p> 
-	  		</div>
-		</div>
-	</a>
-	
-	  <a href="html/kakashi.html">
-	    <div class="card col-sm-2">
-	    	<div class="imageContainer">
-	  			<img src="images/kakashiAvatar500X593.png" alt="kakashiAvatar" style="max-width:200px; width:100%">
-	  		</div>
-	  		<div class="CardContainer">
-	    		<h4><b>Hatake Kakashi</b></h4> 
-	    		<p>-- the copy ninja</p> 
-	  		</div>
-		</div>
-	</a>
-	</div>
-	</div>
-</div>
 
-<!-- End page content -->
+
+<!-- content Container -->
+<div class="container-fluid text-center mt_30">
+	<div class = "col-sm-2"></div>
+  	<div id="content" class="col-sm-8" style="max-width:800px">
+    <h5><span class="heading_black_background_lg">CONTENT</span></h5>
+        
+  </div>
 </div>
+<!-- End page content -->
+
 
 <!-- Footer -->
-<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+<footer class="container-fluid text-center mt_30">
   <p>Powered by Town Naruto</p>
 </footer>
 

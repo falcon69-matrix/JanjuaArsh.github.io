@@ -1,40 +1,213 @@
+/* 
+*global properties-- applies to the whole page 
+*/
 body, html {
     height: 100%;
-    font-family: "Inconsolata", sans-serif;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 17px;
 }
+a{
+	color: white;
+}
+
+/* global properties ends here */
+
+
+
+
+/*
+* background images for various pages 
+*/
 .bgimg {
     background-position: center;
     background-size: cover;
     background-image: url("images/narutoSakuraSasuke.png");
     min-height: 75%;
 }
-
 .bgimg_kakashi {
     background-position: center;
     background-size: cover;
-    background-image: url("images/kakashiPageHeading.jpg");
+    background-image: url("../images/kakashiPageHeading.jpg");
     min-height: 75%;
 }
+/* background images css ends here */
 
-.menu {
-    display: none;
+
+
+
+/*
+*font color css
+*/
+.text_color_white{
+	color:white;
 }
+/* font color css ends here */
 
-.card {
+
+
+/* backgrount color css starts here */
+.background_black{
+	background-color: black;
+}
+/* backgrount color css ends here */
+
+
+
+
+/* different types of page heading css starts here */
+.heading_black_background
+{
+	background-color: black;	
+	color:white;
+	padding: 3px;
+}
+.heading_black_background_lg
+{
+	background-color: black;	
+	color:white;
+	padding: 3px;
+	font-size: 20px;
+}
+/* different types of page heading css ends here */
+
+
+
+
+
+/* positioning elements css starts here */
+.position_relative
+{
+	position: relative;
+}
+.position_absolute
+{
+	position: absolute;
+}
+.bottom_right
+{
+	bottom:5px;
+	right:5px;
+}
+.bottom_left
+{
+	bottom:5px;
+	left:5px;
+}
+.center_div
+{
+	text-align: center;
+}
+/* positioning elements css ends here */
+
+
+
+
+/* z index property css */
+.z_index_1
+{
+	z-index: 1;
+}
+/* z index property css ends here*/
+
+
+
+
+
+/* margin property css */
+.mt_30
+{
+	margin-top: 30px;
+}
+/* margin property css ends here*/
+
+
+
+
+/* padding property css */
+.px_10
+{
+	padding-right: 10px;
+	padding-left: 10px;
+}
+/* padding property css ends here*/
+
+
+
+
+ /* Set black background color, white text and some padding of the footer */
+    footer 
+    {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+ /* Set black background color, white text and some padding of the footer--ends here */ 
+    
+    
+    
+    
+ /* Set black background color of elements*/
+  .bg-color-cream
+  {
+   	background-color: #f2f2f2;
+  }
+/* Set black background color of elements---ends*/
+   
+   
+   
+ 
+/*  css for quotations */
+ .quotations
+ {
+ 	background-color: #f2f2f2;
+ }
+ /*css for quotations- end  */
+   
+
+
+
+/*  css for cards */
+ .card {
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    margin: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 0px;
     background-color: white;
     height: 350px;
+    width: 250px;
 }
-
-/* On mouse-over, add a deeper shadow */
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
-
-/* Add some padding inside the card container */
 .CardContainer {
     padding: 2px 16px;
 }
+ /*css for cards- end  */
+
+
+
+
+/*
+* navigation menu on top 
+*/
+.navigationBar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.menuItem:hover {
+  background: #ddd;
+  color: black;
+}
+.menuItem {
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+/* end of css for navigation menu */
